@@ -9,7 +9,7 @@ build a hangman game in Java
 ## As you start
 
 Right away:
-Add your name as a comment to the Hangman.java class, and do a "git trio" -> 
+Add your name as a comment to the Hangman.java class, and do a "git trio" ->
 
 ```
 git add .
@@ -27,30 +27,30 @@ The game looks something like this when the player loses.
 
 ```
 Let's Play Hangman version 1.0
-Current Guesses: 
-_ _ _ _ 
+Current Guesses:
+_ _ _ _
 You have 4 tries left.
-Enter a single character: 
+Enter a single character:
 f
-Current Guesses: 
-_ _ _ _ 
+Current Guesses:
+_ _ _ _
 You have 3 tries left.
-Enter a single character: 
+Enter a single character:
 c
-Current Guesses: 
-_ _ _ _ 
+Current Guesses:
+_ _ _ _
 You have 2 tries left.
-Enter a single character: 
+Enter a single character:
 e
-Current Guesses: 
-_ _ _ e 
+Current Guesses:
+_ _ _ e
 You have 1 tries left.
-Enter a single character: 
+Enter a single character:
 f
 :-( :-( :-(
-_ _ _ e 
+_ _ _ e
 You Lost! You ran out of guesses.
-Would you like to play again? (yes/no) 
+Would you like to play again? (yes/no)
 no
 Game Over.
 ```
@@ -59,25 +59,25 @@ And like this if the player wins.
 
 ```
 Let's Play Hangman version 1.0
-Current Guesses: 
-_ _ _ 
+Current Guesses:
+_ _ _
 You have 3 tries left.
-Enter a single character: 
+Enter a single character:
 c
-Current Guesses: 
-c _ _ 
+Current Guesses:
+c _ _
 You have 2 tries left.
-Enter a single character: 
+Enter a single character:
 t
-Current Guesses: 
-c _ t 
+Current Guesses:
+c _ t
 You have 1 tries left.
-Enter a single character: 
+Enter a single character:
 a
 **** ****
-c a t 
+c a t
 Congratulations, You Won!
-Would you like to play again? (yes/no) 
+Would you like to play again? (yes/no)
 no
 Game Over.
 ```
@@ -108,7 +108,7 @@ Call it v2.
 Write the main Hangman class, and the needed game methods.
 Try to keep your methods small.
 If the methods get too big, break them up into smaller pieces with other methods.
-Read [Notes.md](./Notes.md) to understand more about how you might design the internals of the Hangman class.
+Read [Notes.md](Notes.md) to understand more about how you might design the internals of the Hangman class.
 
 BE SURE to do git commits along the way.
 You don't want to lose any code.
